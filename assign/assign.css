@@ -1,0 +1,1804 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(211, 207, 207);
+  align-items: center;
+  display: flex;
+  position: fixed;
+  z-index: 2;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.nav h1 {
+  margin-left: 2rem;
+  color: rgb(2, 2, 97);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.a-tags ul {
+  display: flex;
+  gap: 4rem;
+  margin-left: 17rem;
+  font-size: 20px;
+}
+
+ul a li {
+  color: black;
+}
+
+.a-tags ul a:hover li {
+  background-color: rgb(2, 2, 97);
+  color: #ffff;
+  transition: all 1s;
+  border-radius: 0.3rem;
+}
+
+.a-tags ul a:first-child li {
+  background-color: rgb(2, 2, 97);
+  color: #fff;
+  width: 3rem;
+  text-align: center;
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 65rem;
+}
+
+.icon1 {
+  display: none;
+}
+
+.vail {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 20rem;
+  margin-top: 5rem;
+}
+
+.background {
+  background-color: gray;
+  height: 25rem;
+  width: 100%;
+  background-image: url(/img/ghjjk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.vail .container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.container h2 {
+  margin-bottom: 1rem;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #ffff;
+  
+}
+
+.container p {
+  font-size: 26px;
+  color: rgb(252, 250, 248);
+}
+
+.content {
+  height: 55rem;
+  background-color: rgb(240, 238, 238);
+  width: 100%;
+}
+
+body {
+  background-color: rgb(240, 238, 238);
+}
+
+.content h3 {
+  margin-left: 36rem;
+  padding-top: 3rem;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(2, 2, 97);
+}
+
+.content article {
+  position: absolute;
+  margin-left: 32rem;
+  margin-top: 6rem;
+  font-size: 24px;
+  color: rgb(2, 2, 97);
+}
+
+.content section {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  /* background-color: #fff; */
+  gap: 5rem;
+  padding-top: 10rem;
+  padding-left: 11rem;
+}
+
+.box {
+  height: 60%;
+  width: 20%;
+  background-color: #ccc;
+  border-radius: 1.5rem;
+}
+
+.box P {
+  text-align: center;
+  background-color: darkblue;
+  color: #fff;
+}
+
+.box button {
+  margin-left: 5rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(3, 3, 126);
+  text-decoration: underline;
+  border-radius: 1rem;
+}
+
+.box button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+section .boxes {
+  background-color: #ccc;
+  height: 60%;
+  width: 20%;
+  margin-top: -18rem;
+  border-radius: 1.5rem;
+}
+
+.boxes P {
+  text-align: center;
+  background-color: darkblue;
+  color: #fff;
+}
+
+.boxes button {
+  margin-left: 5rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(3, 3, 126);
+  text-decoration: underline;
+  border-radius: 1rem;
+}
+
+.boxes button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.box img {
+  height: 90%;
+  width: 95%;
+}
+
+.boxes img {
+  height: 90%;
+  width: 95%;
+}
+
+section .bo {
+  background-color: #ccc;
+  height: 60%;
+  width: 20%;
+  margin-top: -36rem;
+  border-radius: 1.5rem;
+}
+
+.bo img {
+  height: 90%;
+  width: 95%;
+}
+
+.bo P {
+  text-align: center;
+  background-color: darkblue;
+  color: #fff;
+}
+
+.bo button {
+  margin-left: 5rem;
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(3, 3, 126);
+  text-decoration: underline;
+  border-radius: 1rem;
+}
+
+.bo button:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.conclution {
+  background-color: darkblue;
+  width: 100%;
+  height: 30rem;
+  margin-top: 23rem;
+}
+
+.conclution h1 {
+  color: #fff;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  font-size: 38px;
+}
+
+.conclution p {
+  padding-left: 3rem;
+  color: #fff;
+  padding-top: 2rem;
+  font-size: 24px;
+}
+
+.conclution article {
+  padding-left: 3rem;
+  padding-top: 2rem;
+  color: #fff;
+  font-size: 23px;
+}
+
+.conclution button {
+  margin-left: 3rem;
+  margin-top: 4rem;
+  text-align: center;
+  width: 8rem;
+  height: 2rem;
+}
+
+.conclution button:hover {
+  background-color: rgb(1, 1, 31);
+  color: #fff;
+}
+
+.conclution img {
+  position: absolute;
+  margin-left: 44%;
+  margin-top: -9rem;
+}
+
+footer {
+  width: 100%;
+  height: 19rem;
+  background-color: gray;
+}
+
+footer h3 {
+  margin-left: 3rem;
+  color: white;
+  padding-top: 2rem;
+}
+
+footer .second {
+  position: absolute;
+  margin-left: 29rem;
+  margin-top: -6.5rem;
+}
+
+footer .third {
+  position: absolute;
+  margin-left: 48rem;
+  margin-top: -6.2rem;
+}
+
+footer .forth {
+  margin-left: 68rem;
+  margin-top: -11.5rem;
+}
+
+footer p {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  color: rgb(1, 1, 102);
+  font-size: 17.5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer .hp {
+  margin-left: 29rem;
+  margin-top: -2rem;
+}
+
+footer .third-p {
+  margin-left: 48rem;
+  margin-top: -2rem;
+}
+
+footer .third2 {
+  margin-left: 48rem;
+  margin-top: 2rem;
+}
+
+footer .another-p {
+  margin-left: 48rem;
+}
+
+footer button {
+  display: grid;
+  margin-top: 0.8rem;
+  background: none;
+  color: rgb(1, 1, 102);
+  font-size: 15px;
+  margin-left: 69rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+footer button:hover {
+  background-color: #fff;
+  padding: 0.2rem;
+}
+
+
+footer img {
+  padding-left: 3rem;
+  margin-top: -2rem;
+}
+
+footer h5{
+  position: absolute;
+  margin-top: -5rem;
+  margin-left: 18rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1280px ){
+
+  .content h3 {
+    margin-left: 30rem;
+    padding-top: 3rem;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(2, 2, 97);
+  }
+  
+  .content article {
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: 6rem;
+    font-size: 24px;
+    color: rgb(2, 2, 97);
+  }
+    
+
+  header {
+    width: 100% auto;
+    height: 5rem;
+    background-color: rgb(211, 207, 207);
+    align-items: center;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+  }
+  
+
+  .conclution {
+    background-color: darkblue;
+    width: 100%;
+    height: 30rem;
+    margin-top: 23rem;
+  }
+  
+  .conclution h1 {
+    color: #fff;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    font-size: 38px;
+  }
+  
+  .conclution p {
+    padding-left: 3rem;
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 24px;
+  }
+  
+  .conclution article {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 23px;
+  }
+  
+  .conclution button {
+    margin-left: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+  }
+  
+  .conclution button:hover {
+    background-color: rgb(1, 1, 31);
+    color: #fff;
+  }
+  
+  .conclution img {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3rem;
+    width: 24rem;
+  }
+  
+
+
+  .content section {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    /* background-color: #fff; */
+    gap: 5rem;
+    padding-top: 10rem;
+    padding-left: 11rem;
+  }
+  
+  .box {
+    height: 58%;
+    width: 21%;
+    background-color: #ccc;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .box P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .box button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .box button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  section .boxes {
+    background-color: #ccc;
+    height: 58%;
+    width: 21%;
+    margin-top: -18rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .boxes P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .boxes button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .boxes button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .box img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .boxes img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  section .bo {
+    background-color: #ccc;
+    height: 58%;
+    width: 21%;
+    margin-top: -36rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .bo img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .bo P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .bo button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .bo button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+
+
+  footer {
+    width: 100%;
+    height: 19rem;
+    background-color: gray;
+  }
+  
+  footer h3 {
+    margin-left: 2rem;
+    color: white;
+    padding-top: 2rem;
+  }
+  
+  footer .second {
+    position: absolute;
+    margin-left: 27rem;
+    margin-top: -6.5rem;
+  }
+  
+  footer .third {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: -6.1rem;
+  }
+  
+  footer .forth {
+    margin-left: 58rem;
+    margin-top: -11.5rem;
+  }
+  
+  footer p {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    color: rgb(1, 1, 102);
+    font-size: 17.5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  footer .hp {
+    margin-left: 27rem;
+    margin-top: -2rem;
+  }
+  
+  footer .third-p {
+    margin-left: 40rem;
+    margin-top: -2rem;
+  }
+  
+  footer .third2 {
+    margin-left: 40rem;
+    margin-top: 2rem;
+  }
+  
+  footer .another-p {
+    margin-left: 40rem;
+  }
+  
+  footer button {
+    display: grid;
+    margin-top: 0.8rem;
+    background: none;
+    color: rgb(1, 1, 102);
+    font-size: 15px;
+    margin-left: 59rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+  
+  footer button:hover {
+    background-color: #fff;
+    padding: 0.2rem;
+  }
+  
+  
+  footer img {
+    padding-left: 3rem;
+    margin-top: -2rem;
+  }
+  
+  footer h5{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 18rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1069px){
+  
+  .a-tags ul {
+    display: flex;
+    gap: 2rem;
+    margin-left: 17rem;
+    font-size: 18px;
+  }
+  
+  .conclution img {
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3rem;
+    width: 24rem;
+  }
+
+  footer h3 {
+    margin-left: 1rem;
+    color: white;
+    padding-top: 2rem;
+    font-size: 15px;
+  }
+  
+  footer .second {
+    position: absolute;
+    margin-left: 22rem;
+    margin-top: -6.5rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .third {
+    position: absolute;
+    margin-left: 35rem;
+    margin-top: -6.1rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .forth {
+    margin-left: 49rem;
+    margin-top: -11.5rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer p {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgb(1, 1, 102);
+    font-size: 13.5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: block;
+
+  }
+  
+  footer .hp {
+    margin-left: 22rem;
+    margin-top: -2rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .third-p {
+    margin-left: 35rem;
+    margin-top: -2rem;
+    display: block;
+    font-size: 13px;
+  }
+  
+  footer .third2 {
+    margin-left: 35rem;
+    margin-top: 2rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .another-p {
+    margin-left: 35rem;
+    display: block;
+    font-size: 13px;
+  }
+  
+  footer button {
+    /* display: grid; */
+    margin-top: 0.8rem;
+    background: none;
+    color: rgb(1, 1, 102);
+    font-size: 13px;
+    margin-left: 50rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  
+  footer h5{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 10rem;
+    font-size: 15px;
+    color: white;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media(max-width: 910px){
+  .a-tags ul {
+    display: flex;
+    gap: 2rem;
+    margin-left: 10rem;
+    font-size: 18px;
+  }
+  
+  .container h2 {
+    margin-bottom: 1rem;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #ffff;
+    margin-left: -2rem;
+  }
+  
+  .container p {
+    font-size: 20px;
+    color: rgb(252, 250, 248);
+    margin-left: -2rem;
+  }
+  
+  .content h3 {
+    margin-left: 24rem;
+    padding-top: 3rem;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(2, 2, 97);
+  }
+  
+  .content article {
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 6rem;
+    font-size: 24px;
+    color: rgb(2, 2, 97);
+  }
+  
+  .content section {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    /* background-color: #fff; */
+    gap: 4rem;
+    padding-top: 10rem;
+    padding-left: 6rem;
+  }
+  
+  .box {
+    height: 50%;
+    width: 23%;
+    background-color: #ccc;
+    border-radius: 1.5rem;
+  }
+  
+  .box P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .box button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  section .boxes {
+    background-color: #ccc;
+    height: 50%;
+    width: 23%;
+    margin-top: -18rem;
+    border-radius: 1.5rem;
+  }
+  
+  .boxes P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .boxes button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+    
+  section .bo {
+    background-color: #ccc;
+    height: 50%;
+    width: 23%;
+    margin-top: -36rem;
+    border-radius: 1.5rem;
+  }
+  
+  
+  .bo P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .bo button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  footer h3 {
+    margin-left: 1rem;
+    color: white;
+    padding-top: 2rem;
+    font-size: 15px;
+  }
+  
+  footer .second {
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: -6.5rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .third {
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: -6.1rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .forth {
+    margin-left: 44rem;
+    margin-top: -11.5rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer p {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: rgb(1, 1, 102);
+    font-size: 13.5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: block;
+
+  }
+  
+  footer .hp {
+    margin-left: 20rem;
+    margin-top: -2rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .third-p {
+    margin-left: 30rem;
+    margin-top: -2rem;
+    display: block;
+    font-size: 13px;
+  }
+  
+  footer .third2 {
+    margin-left: 30rem;
+    margin-top: 2rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .another-p {
+    margin-left: 30rem;
+    display: block;
+    font-size: 13px;
+  }
+  
+  footer button {
+    /* display: grid; */
+    margin-top: 0.8rem;
+    background: none;
+    color: rgb(1, 1, 102);
+    font-size: 13px;
+    margin-left: 50rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  footer button:hover {
+    background-color: #fff;
+    padding: 0.2rem;
+  }
+  
+  
+  footer img {
+    padding-left: 2rem;
+    margin-top: -2rem;
+  }
+  
+  footer h5{
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    color: white;
+  }
+
+  footer .forth {
+    margin-left: 43rem;
+  }
+
+footer button{
+  margin-left: 43.5rem;
+}
+
+footer img{
+  display: none;
+}
+
+}
+
+
+
+
+
+
+@media(max-width:820){
+  .content h3 {
+    margin-left: 15rem;
+    padding-top: 3rem;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(2, 2, 97);
+  }
+  
+  .content article {
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 6rem;
+    font-size: 24px;
+    color: rgb(2, 2, 97);
+  }
+  
+  .box {
+    height: 55%;
+    width: 22%;
+    background-color: #ccc;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .box P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .box button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .box button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  section .boxes {
+    background-color: #ccc;
+    height: 55%;
+    width: 22%;
+    margin-top: -18rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .boxes P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .boxes button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .boxes button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .box img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .boxes img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  section .bo {
+    background-color: #ccc;
+    height: 55%;
+    width: 22%;
+    margin-top: -36rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .bo img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .bo P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .bo button {
+    margin-left: -11rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .bo button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+
+
+}
+
+@media(max-width: 814px){
+ .content h3 {
+  margin-left: 15rem;
+  padding-top: 3rem;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(2, 2, 97);
+  }
+
+
+.content article {
+  position: absolute;
+  margin-left: 10rem;
+  margin-top: 6rem;
+  font-size: 18px;
+  color: rgb(2, 2, 97);
+  }
+
+
+  .conclution p {
+    padding-left: 3rem;
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 14px;
+  }
+  
+  .conclution article {
+    padding-left: 3rem;
+    padding-top: 2rem;
+    color: #fff;
+    font-size: 19px;
+  }
+
+  .box {
+    height: 55%;
+    width: 22%;
+    background-color: #ccc;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .box P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .box button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .box button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  section .boxes {
+    background-color: #ccc;
+    height: 55%;
+    width: 22%;
+    margin-top: -18rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .boxes P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .boxes button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .boxes button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .box img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .boxes img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  section .bo {
+    background-color: #ccc;
+    height: 55%;
+    width: 22%;
+    margin-top: -36rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .bo img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .bo P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .bo button {
+    margin-left: -11rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .bo button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+
+  
+}
+
+
+@media(max-width: 793px){
+
+  .a-tags ul {
+    display: flex;
+    gap: 2rem;
+    margin-left: 6rem;
+    font-size: 15px;
+  }
+
+    footer .third2 {
+      margin-left: 1rem;
+      margin-top: 2rem;
+      display: block;
+      font-size: 15px;
+    }
+    
+    footer .another-p {
+      margin-left: 1rem;
+      display: block;
+      font-size: 13px;
+    }
+  
+    .conclution img {
+      position: absolute;
+      margin-left: 8%;
+      margin-top: -2rem;
+    }
+
+    .box {
+      height: 55%;
+      width: 22%;
+      background-color: #ccc;
+      border-radius: 1.5rem;
+      margin-left: -2rem;
+    }
+    
+    .box P {
+      text-align: center;
+      background-color: darkblue;
+      color: #fff;
+    }
+    
+    .box button {
+      margin-left: 3rem;
+      width: 7rem;
+      height: 2rem;
+      font-size: 1rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: rgb(3, 3, 126);
+      text-decoration: underline;
+      border-radius: 1rem;
+    }
+    
+    .box button:hover {
+      background-color: blue;
+      color: #fff;
+    }
+    
+    section .boxes {
+      background-color: #ccc;
+      height: 55%;
+      width: 22%;
+      margin-top: -18rem;
+      border-radius: 1.5rem;
+      margin-left: -2rem;
+    }
+    
+    .boxes P {
+      text-align: center;
+      background-color: darkblue;
+      color: #fff;
+    }
+    
+    .boxes button {
+      margin-left: 3rem;
+      width: 7rem;
+      height: 2rem;
+      font-size: 1rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: rgb(3, 3, 126);
+      text-decoration: underline;
+      border-radius: 1rem;
+    }
+    
+    .boxes button:hover {
+      background-color: blue;
+      color: #fff;
+    }
+    
+    .box img {
+      height: 90%;
+      width: 95%;
+    }
+    
+    .boxes img {
+      height: 90%;
+      width: 95%;
+    }
+    
+    section .bo {
+      background-color: #ccc;
+      height: 55%;
+      width: 22%;
+      margin-top: -36rem;
+      border-radius: 1.5rem;
+      margin-left: -2rem;
+    }
+    
+    .bo img {
+      height: 90%;
+      width: 95%;
+    }
+    
+    .bo P {
+      text-align: center;
+      background-color: darkblue;
+      color: #fff;
+    }
+    
+    .bo button {
+      margin-left: 3rem;
+      width: 7rem;
+      height: 2rem;
+      font-size: 1rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: rgb(3, 3, 126);
+      text-decoration: underline;
+      border-radius: 1rem;
+    }
+    
+    .bo button:hover {
+      background-color: blue;
+      color: #fff;
+    }
+  
+  
+    footer .third{
+  margin-left: 29rem;
+    }
+  
+    footer .third-p{
+  margin-left: 29rem;
+    }
+    
+    footer .forth{
+      margin-left: 20rem;
+      margin-top: -6rem;
+    }
+  
+  footer button{
+    margin-left: 20rem;
+    display: flex;
+    margin-top: 0.3rem;
+  }
+  
+  footer h5{
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  
+  
+}
+
+@media (max-width: 689px){
+
+  .a-tags ul {
+    display: flex;
+    gap: 2rem;
+    margin-left: 6rem;
+    font-size: 15px;
+  }
+  
+  footer .third2 {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    display: block;
+    font-size: 15px;
+  }
+  
+  footer .another-p {
+    margin-left: 1rem;
+    display: block;
+    font-size: 13px;
+  }
+
+  .conclution img {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: -2rem;
+  }
+
+  footer .third{
+  margin-left: 29rem;
+  }
+
+  footer .third-p{
+  margin-left: 29rem;
+  }
+  
+  footer .forth{
+    margin-left: 20rem;
+    margin-top: -6rem;
+  }
+
+footer button{
+  margin-left: 20rem;
+  display: flex;
+  margin-top: 0.3rem;
+}
+
+footer h5{
+  margin-top: -1rem;
+  margin-left: 1rem;
+}
+}
+
+
+@media (max-width: 662px){
+  .box {
+    height: 55%;
+    width: 22%;
+    background-color: #ccc;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .box P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .box button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .box button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  section .boxes {
+    background-color: #ccc;
+    height: 55%;
+    width: 22%;
+    margin-top: -18rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .boxes P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .boxes button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .boxes button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .box img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .boxes img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  section .bo {
+    background-color: #ccc;
+    height: 52%;
+    width: 23%;
+    margin-top: -36rem;
+    border-radius: 1.5rem;
+    margin-left: -2rem;
+  }
+  
+  .bo img {
+    height: 90%;
+    width: 95%;
+  }
+  
+  .bo P {
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+  }
+  
+  .bo button {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(3, 3, 126);
+    text-decoration: underline;
+    border-radius: 1rem;
+  }
+  
+  .bo button:hover {
+    background-color: blue;
+    color: #fff;
+  }
+
+}
